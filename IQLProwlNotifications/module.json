@@ -1,0 +1,14 @@
+{
+  "id": "{F7A35269-066E-4AF2-BBDB-758D23BDB89A}",
+  "name": "IQLProwlNotifications",
+  "type": 3,
+  "vendor": "IQLiving",
+  "aliases":
+  [
+    "IQLProwlNotifications"
+  ],
+  "parentRequirements": [],
+  "childRequirements": [],
+  "implemented": [],
+  "prefix": "IQLPN"
+}
