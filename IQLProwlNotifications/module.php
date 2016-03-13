@@ -117,6 +117,7 @@ class IQLProwlNotifications extends IPSModule {
         curl_setopt($curl_connection, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curl_connection, CURLOPT_FOLLOWLOCATION, 1);
         $result = curl_exec($curl_connection);
+        curl_close($curl_connection);
 
         $xmlResult = new SimpleXMLElement($result);
         if(isset($xmlResult->{'error'})) {
